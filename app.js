@@ -9,7 +9,7 @@ else {
   console.log("Bye Felicia!");
 }
 var response = prompt("Do I love food?");
-if (response === "yes"){
+if (response.toLowerCase() === "yes"){
   console.log("I do!");
   alert("I do!");
 }
@@ -18,7 +18,7 @@ else {
   alert("How could I not?");
 }
 var response = prompt("Did I go to the Grand Canyon last weekend?");
-if (response === "no"){
+if (response.toLowerCase() === "no"){
   console.log("I actually did!");
   alert("I actually did!");
 }
@@ -27,7 +27,7 @@ else {
   alert("You're right, it was so amazing!")
 }
 var response = prompt("Is my dog\'s name Woof?")
-if (response === "yes"){
+if (response.toLowerCase === "yes"){
   console.log("Haha, yes one of their names is Woof")
   alert("Haha, yes one of their names is Woof")
 }
@@ -36,7 +36,7 @@ else {
   alert("Funny, but it is!")
 }
 var response = prompt("Woof is younger than Coco, though. Yes or no?")
-if (response === "yes"){
+if (response.toLowerCase === "yes"){
   console.log("True story!")
   alert("True story!")
 }
@@ -45,7 +45,7 @@ else {
   alert("Nope, Coco was born first!")
 }
 var response = prompt("Do I have any other dogs?")
-if (response === "no"){
+if (response.toLowerCase === "no"){
   console.log("Yup, I wish I had more though!")
   alert("Yup, I wish I had more though!")
 }
