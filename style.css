@@ -1,14 +1,24 @@
+
 h1 {
   color: #9C9F84;
   font-size: 100px;
+  font-family: Besom; src: url('BESOM.OTF'); 
+
 }
 
 h2 {
   color: black;
+  width: 1000px;
+}
+
+h4 {
+  color: black;
+
 }
 
 body {
   background: white;
+  width: 1000px;
 }
 
 img {
