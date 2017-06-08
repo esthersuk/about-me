@@ -2,8 +2,9 @@
 h1 {
   color: #9C9F84;
   font-size: 100px;
-  font-family: Besom; src: url('BESOM.OTF'); 
-
+  font-family: Besom; src: url('BESOM.OTF');
+  height:100px;
+  width:500px;
 }
 
 h2 {
@@ -19,6 +20,14 @@ h4 {
 body {
   background: white;
   width: 1000px;
+  background-image: url("aboutmephoto.png");
+  background-size: 20em;
+  background-origin: content-box;
+}
+
+#circle {
+  height: 800px;
+  width: 100px;
 }
 
 img {
